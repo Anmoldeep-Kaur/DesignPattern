@@ -1,0 +1,39 @@
+﻿@model IEnumerable<NotificationSystem.DTO.Models.Events>
+
+@{
+    ViewBag.Title = "Event";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Event</h2>
+
+<fieldset>
+    <legend>Dashboard</legend>
+
+    @if (Session["EmployeeId"] != null)
+    {
+    <text>Welcome @Session["EmployeeId"].ToString()</text>
+    }
+
+</fieldset>
+
+@using (Html.BeginForm())
+{
+    <table class="table">
+
+        @Html.EditorForModel()
+
+
+        <tr>
+            <td>
+                <input type="submit" value="Submit" />
+            </td>
+            <td>
+            <td>
+                @Html.ActionLink("Skip", "Index", "Dasboard");
+            </td>
+            
+        </tr>
+    </table>
+
+}

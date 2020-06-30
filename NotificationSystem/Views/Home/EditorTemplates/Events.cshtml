@@ -1,0 +1,18 @@
+﻿@model NotificationSystem.DTO.Models.Events
+
+
+
+@Html.HiddenFor(x => x.ID)
+@Html.HiddenFor(x => x.NotificationType)
+      
+    <tr>
+        <td>
+            @Html.DisplayFor(x => x.NotificationType)
+
+        </td>
+        <td>
+            @Html.CheckBoxFor(x => x.Subscribe)
+        </td>
+
+    </tr>      
+

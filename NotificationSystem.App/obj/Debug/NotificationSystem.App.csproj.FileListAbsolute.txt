@@ -1,0 +1,15 @@
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\obj\Debug\NotificationSystem.App.csprojAssemblyReference.cache
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\obj\Debug\NotificationSystem.App.csproj.CoreCompileInputs.cache
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\NotificationSystem.App.exe.config
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\NotificationSystem.App.exe
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\NotificationSystem.App.pdb
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\EntityFramework.dll
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\NotificationSystem.Data.dll
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\NotificationSystem.Data.pdb
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\NotificationSystem.Data.dll.config
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\EntityFramework.xml
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\obj\Debug\NotificationSystem.App.csproj.CopyComplete
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\obj\Debug\NotificationSystem.App.exe
+C:\Users\anmoldeepkaur\source\repos\DesignPattern\NotificationSystem.App\obj\Debug\NotificationSystem.App.pdb

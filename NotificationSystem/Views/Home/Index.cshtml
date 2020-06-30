@@ -1,0 +1,64 @@
+﻿@model IEnumerable<NotificationSystem.DTO.Models.Events>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<fieldset>
+    <legend>Dashboard</legend>
+
+    @if (Session["UserEmail"] != null)
+    {
+        <text>Welcome @Session["UserEmail"].ToString()</text>
+    }
+
+</fieldset>
+@using (Html.BeginForm())
+{
+<table class="table">
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.NotificationType)
+        </th>
+
+
+    </tr>
+
+
+
+    @foreach (var item in Model)
+    { 
+            @Html.HiddenFor(modelItem => item.ID)
+            @Html.HiddenFor(modelItem => item.NotificationType)
+       
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NotificationType)
+                </td>
+                <td>
+                    @Html.CheckBoxFor(modelItem => item.Subscribe)
+                </td>
+            </tr>
+            }
+        
+        
+<tr>
+    <td>
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    </td>
+    <td>
+        @Html.ActionLink("Skip", "Index", "Dasboard");
+    </td>
+</tr>
+
+    </table>
+    
+}
